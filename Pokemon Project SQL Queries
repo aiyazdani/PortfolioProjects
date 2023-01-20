@@ -1,0 +1,17 @@
+
+/*CREATE TABLE dragon_types (
+DexNum int,
+Name varchar(100),
+Generation int,
+Primary_type varchar(100),
+Secondary_type varchar(100),
+Legendary int
+)*/
+
+/*INSERT INTO dragon_types
+SELECT pokedex_number, name, generation, type1, type2, is_legendary 
+FROM pokemon
+WHERE type1 = 'dragon' OR type2 = 'dragon'*/
+
+select *
+from dragon_types
